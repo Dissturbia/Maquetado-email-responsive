@@ -2,17 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”/>
     <title>Email</title>
     <style type="text/css">
+
+    body {
+        font-family: Arial,helvetica,sans-serif;
+    }
         @media screen and (max-width: 600px) {
+
             img[class="responsive-imagen"] {
-                width: 100% !important 
+                width: 100% !important;
             }
 
-            table [class="responsive-imagen"]{
-                width: 100% !important
+            table[class="responsive-table"]{
+                width: 100% !important;
+            }
+
+            td[class="titulo"] {
+                font-size: 32px !important;
+                color : #999;
+                text-align: center;
+
+            }
+
+            table[class="responsive-table-dos"] {
+                width: 100% !important;
+                padding: 20px;
             }
 
             
@@ -20,22 +36,59 @@
     </style>
 </head>
 <body>
-    <table width="100%" border="0" cellspacing="0" cellpadding="0" bordercolor="hotpink">
-        
-    </table>
-    <table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="hotpink" class="responsive-imagen">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="responsive-table">
         <tr>
             <td align="center">
-                <img class="responsive-imagen" width="600px" height="150px" src="Images/email-logo.jpg" alt="">
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                Acá va el titulo
-            </td>
-        </tr>
+                <table width="600" cellspacing="0" cellpadding="0" border="0" class="resposive-table">
+                    <tr>
+                        <td>
+                            <img class="responsive-imagen" width="600" height="300" src="Images/email-marketing.jpg" alt=""/>
+                        </td>
+                    </tr>
 
+                    <tr>
+                        <td class="titulo" style="font-size: 48px; padding: 20px 0"> You have a e-mail! </td>
+                            
+                        
+                    </tr>
+
+                    <tr>
+                        <td style="font-size: 20px; line-height: 21px; padding: "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius repudiandae ea earum, maxime officia inventore eos qui nemo minus provident cumque molestias ullam esse facilis, ab quod, illo,  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, animi possimus accusamus. Error odit, recusandae. Reiciendis quaerat minima magnam provident, possimus, debitis iste vero ab exercitationem sit reprehenderit </td>
+                            
+                        
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <table align="left" style="background-color: #FCB199"  width="300" cellspacing="0" cellpadding="10" border="0" class="responsive-table-dos">
+                                <tr>
+                                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde eum ab maxime sequi dignissimos illum blanditiis nam ipsum maiores vitae molestiae iure aliquam, tempora, aut expedita possimus.</td>
+                                </tr>
+                                
+                            </table>
+
+                            <table align="right" style="background-color: #FDC2E1" width="300" cellspacing="0" cellpadding="10" border="0" class="responsive-table-dos">
+                                <tr>
+                                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus suscipit consequuntur odit impedit. Illo, ratione, nisi. Vero sapiente in tenetur, tempora quia, minus aperiam possimus tempore dolore dolorum et debitis.</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <table width="600" cellspacing="5" cellpadding="0" border="0" class="responsive-table-tres">
+                        <tr>
+                            <td>
+                                <img class="responsive-footer" width="600" height="150" src="Images/Join us! (1).jpg">
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </table>
+                
+            </td>
+            
+        </tr>
+     
 
   
 </body>
